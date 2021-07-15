@@ -1,3 +1,5 @@
+import landingil from '../../Assets/Vectors/landingil.svg';
+
 import "./LandingSection.css" ;
 
 const LandingSection = () => {
@@ -14,7 +16,13 @@ const LandingSection = () => {
                     </ul>
                 </nav>
             </header>
-            <main> </main>
+            <main className="landing">
+                <article>
+                    <h2 className="main-heading">Hey, I am <span className="orange">Maitrey Bhute</span></h2>
+                    <h3 className="sub-heading">I am a <span className="green">student at VIT, Vellore</span></h3>
+                </article>
+                <img src={landingil} alt="Landing Illustration" className="landing-il"/>
+            </main>
         </section>
     )
 }

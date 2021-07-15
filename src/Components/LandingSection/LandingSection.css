@@ -1,7 +1,7 @@
 .navbar {
     position: fixed;
     width: 100%;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     z-index: 10;
     background-color:white;
     /*opacity: 0;*/
@@ -18,7 +18,7 @@
   
   .nav-link {
     margin-left: 3rem;
-    cursor: pointe;
+    cursor: pointer;
     font-size: 1rem;
   }
   
@@ -55,18 +55,18 @@
   
   .main-heading {
     font-size: 3.5rem;
-    opacity: 0;
+    /*opacity: 0;*/
   }
   
   .sub-heading {
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     /*opacity: 0;*/
   }
   
-  .landing-il {
+  /*.landing-il {
     opacity: 0;
-  }
+  }*/
   
   .orange {
     color: #ff511a;
@@ -354,4 +354,3 @@
       display: block;
     }
   }
-  
