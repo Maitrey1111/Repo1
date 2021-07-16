@@ -22,6 +22,20 @@ const LandingSection = () => {
                     <h3 className="sub-heading">I am a <span className="green">student at VIT, Vellore</span></h3>
                 </article>
                 <img src={landingil} alt="Landing Illustration" className="landing-il"/>
+                
+                <a data-scroll href='#project' className="chevron">
+                    <div classNameName="mouse_scroll">
+
+		                <div className="mouse">
+			                <div className="wheel"></div>
+		                </div>
+		                <div>
+			                <span className="m_scroll_arrows unu"></span>
+			                <span className="m_scroll_arrows doi"></span>
+			                <span className="m_scroll_arrows trei"></span>
+		                </div>
+                    </div>
+                </a>
             </main>
         </section>
     )

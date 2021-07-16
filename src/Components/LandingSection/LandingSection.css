@@ -48,8 +48,7 @@
     position: relative;
   }
   
-  h2,
-  h3 {
+  h2,  h3 {
     margin: 0;
   }
   
@@ -81,13 +80,12 @@
   }
   
   .chevron {
-    display: none;
+    display:none;
+    /*box-sizing: border-box;*/
   }
   
   /* Chevron animation from https://codepen.io/rightblog/pen/EagNMN/*/
-  *,
-  *:before,
-  *:after {
+  *,  *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
