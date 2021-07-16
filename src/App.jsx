@@ -1,11 +1,16 @@
 import LandingSection from './Components/LandingSection/LandingSection.jsx';
 
+import ProjectSection from './Components/Projects/ProjectSection.jsx';
+
 import './App.css';
 
 const App = () => {
   
   return (
-    <main><LandingSection/></main>
+    <main>
+      <LandingSection/>
+      <ProjectSection/>
+    </main>
   );
 }
 
