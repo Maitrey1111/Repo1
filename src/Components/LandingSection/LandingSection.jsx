@@ -24,7 +24,7 @@ const LandingSection = () => {
                 <img src={landingil} alt="Landing Illustration" className="landing-il"/>
                 
                 <a data-scroll href='#project' className="chevron">
-                    <div classNameName="mouse_scroll">
+                    <div className="mouse_scroll">
 
 		                <div className="mouse">
 			                <div className="wheel"></div>
