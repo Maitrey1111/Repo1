@@ -1,8 +1,22 @@
+import { useEffect } from 'react'
+
+import gsap from 'gsap' ;
+
 import landingil from '../../Assets/Vectors/landingil.svg';
 
 import "./LandingSection.css" ;
 
 const LandingSection = () => {
+
+useEffect(() => {
+    window.blur("Enjoy");
+    const tl = gsap.timeline();
+    tl.to('.main-heading',{opacity:1, duration:1.5}).from('.main-heading',{x:-100, duration:1.5, delay:-1.5})
+    tl.to('.sub-heading',{opacity:1, duration:1.5, delay:-1}).from('.sub-heading',{x:-100, duration:1.5, delay:-1.5})
+    tl.to('.landing-il',{opacity:1, duration:1.5, delay:-1.5}).from('.landing-il',{y:80, duration:1.5, delay:-1.5})
+    tl.to('.navbar',{opacity:1, duration:1.5, delay:-1.5})
+}, [])
+
     return (
         <section id="landing">
             <header className="navbar">

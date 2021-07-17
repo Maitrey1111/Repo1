@@ -1,10 +1,10 @@
 .navbar {
     position: fixed;
     width: 100%;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     z-index: 10;
     background-color:white;
-    /*opacity: 0;*/
+    opacity: 0;
   }
   
   .nav-links {
@@ -44,7 +44,7 @@
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
-    padding: 8rem;
+    padding: 6rem;
     position: relative;
   }
   
@@ -54,18 +54,18 @@
   
   .main-heading {
     font-size: 3.5rem;
-    /*opacity: 0;*/
+    opacity: 0;
   }
   
   .sub-heading {
     font-size: 2rem;
     margin-top: 0.5rem;
-    /*opacity: 0;*/
+    opacity: 0;
   }
   
-  /*.landing-il {
+  .landing-il {
     opacity: 0;
-  }*/
+  }
   
   .orange {
     color: #ff511a;
