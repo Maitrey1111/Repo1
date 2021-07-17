@@ -1,3 +1,5 @@
+import {PROJECTS} from "../../Content/data"
+
 import "./ProjectSection.css";
 
 const ProjectSection = () => {
@@ -8,14 +10,13 @@ const ProjectSection = () => {
       </header>
       <main>
           <article className="proj-cont">
-            {Array(3)
-            .fill(0)
-            .map((elem,i)=> (
-              <a href="https://github.com" className="proj" key={i}>
-                  <img src="//placehold.it/1000x1000" alt="Project Thumbnail" className="proj-img"/>
-                  <h3 className="proj-heading">PROJECT {i+1}</h3>
-                  <p className="proj-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique aspernatur omnis nisi ad. Eligendi, repudiandae debitis. Amet praesentium illo expedita voluptas, minus quia sed possimus quas pariatur officia voluptatem neque similique, ullam in ab impedit dolore aut? Nulla eos perferendis quidem quasi fugit nostrum ullam debitis temporibus corrupti dolore!</p>
-              </a>))}
+            {PROJECTS.map((elem,i)=> (
+              <a target="_blank"  rel="noopener noreferrer" href={elem.link} className="proj" key={i}>
+                  <img src={elem.img} alt="Project Thumbnail" className="proj-img"/>
+                  <h3 className="proj-heading orange">{elem.title}</h3>
+                  <p className="proj-desc">{elem.desc}</p>
+              </a>))
+            }
           </article>
       </main>
     </section>
