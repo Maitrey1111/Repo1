@@ -9,7 +9,7 @@ import "./LandingSection.css" ;
 const LandingSection = () => {
 
 useEffect(() => {
-    window.blur("Enjoy");
+    /*window.alert("Enjoy");*/
     const tl = gsap.timeline();
     tl.to('.main-heading',{opacity:1, duration:1.5}).from('.main-heading',{x:-100, duration:1.5, delay:-1.5})
     tl.to('.sub-heading',{opacity:1, duration:1.5, delay:-1}).from('.sub-heading',{x:-100, duration:1.5, delay:-1.5})
