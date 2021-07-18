@@ -1,4 +1,4 @@
-/*export const SKILLS = [
+export const SKILLS = [
     { name: "ExpressJS", skill: 90 },
     { name: "ReactJS", skill: 88 },
     { name: "SCSS", skill: 64 },
@@ -13,7 +13,7 @@
     { name: "Cloud", skill: 62 },
     { name: "SEO", skill: 100 },
   ];
-  */
+  
   
   export const PROJECTS = [
     {

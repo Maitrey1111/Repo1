@@ -37,7 +37,7 @@ useEffect(() => {
                 </article>
                 <img src={landingil} alt="Landing Illustration" className="landing-il"/>
                 
-                <a data-scroll href='#project' className="chevron">
+                <a data-scroll href='#about' className="chevron">
                     <div className="mouse_scroll">
 
 		                <div className="mouse">

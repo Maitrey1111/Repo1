@@ -1,0 +1,22 @@
+.about-me{
+    min-height: 100vh;
+    padding: 12rem 8rem;
+    box-sizing: border-box;
+  }
+
+.about-desc{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1045px) {
+  .about-me{
+    padding: 0;
+    padding: 1rem;
+    min-height: inherit;
+  }
+
+  .about-desc {
+    text-align: justify;
+    padding: 1rem;
+  }
+}
