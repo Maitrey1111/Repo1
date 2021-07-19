@@ -28,11 +28,10 @@ const SkillsSection = () => {
         </h2>
       </header>
       <main>
-        <article className="card-cont">
+        <article className="card-cont" key={i}>
           {SKILLS.map((elem, i) => (
             <p className="card head">
               {elem.name}
-              
               <p>
                 <div className="container head2">
                   <div className="skill-of" id="skill-of"></div>
